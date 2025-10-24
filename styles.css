@@ -10,13 +10,12 @@ body {
   }
 
   h1 {
-    font-size: 60px;
+    font-size: 90px;
     color: rgb(46, 20, 3);
-    width: 400px;
+    width: auto;
     font-weight: 400;
     text-align: center;
-    text-decoration: unset;
-    margin: 30px auto;
+    margin: 50px auto;
     letter-spacing: 6px;
   }
 
@@ -29,6 +28,13 @@ body {
     
   }
 
-  .direction{
-   margin-left:500px
+  .recipe-sections {
+    display:flex;
+   justify-content: space-between;
+   align-items:flex-start;
+   gap: 250px;
+   margin: 15px;
+
   }
+
+ 
