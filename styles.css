@@ -1,6 +1,6 @@
 body {
-    background-color: rgb(156, 140, 75);
-    color: rgb(241, 132, 59);
+    background-color: rgb(232, 229, 213);
+    color: rgb(46, 20, 3);
     font-size: 35px;
     font-family: 'Oswald', sans-serif;
     font-weight: 300;
@@ -11,11 +11,24 @@ body {
 
   h1 {
     font-size: 60px;
-    color: #ff6600;
+    color: rgb(46, 20, 3);
     width: 400px;
     font-weight: 400;
     text-align: center;
     text-decoration: unset;
     margin: 30px auto;
     letter-spacing: 6px;
+  }
+
+  img {
+    width: 500px;
+    height: auto;
+    border: 5px hsl(hue, saturation, lightness); 
+    border-radius: 15px;
+    margin-left: auto;
+    
+  }
+
+  .direction{
+   margin-left:500px
   }
