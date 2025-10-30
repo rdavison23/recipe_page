@@ -9,6 +9,10 @@ body {
     padding: 0 20px;
 }
 
+.intro {
+    width: 100%;
+}
+
 h1 {
     font-size: 150px;
     color: rgb(142, 52, 29);
