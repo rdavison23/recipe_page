@@ -7,9 +7,9 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
-  }
+}
 
-  h1 {
+h1 {
     font-size: 150px;
     color: rgb(142, 52, 29);
     width: auto;
@@ -17,9 +17,9 @@ body {
     text-align: center;
     margin: 50px auto;
     letter-spacing: 3px;
-  }
+}
 
-  img {
+img {
     width: 100%; 
     max-width: 100%; 
     height: auto;
@@ -28,19 +28,20 @@ body {
     display: block;
     margin: 0 auto 30px auto; 
 
-  }
+}
   
 
-  .recipe-sections {
+.recipe-sections {
     display:flex;
-   justify-content: space-between;
-   align-items:flex-start;
-   gap: 250px;
-   margin: 15px;
+    justify-content: space-between;
+    align-items:flex-start;
+    gap: 250px;
+    margin: 15px;
 
-  }
+}
+
 .footer{
-   text-align: center;
+    text-align: center;
 
 }
  
