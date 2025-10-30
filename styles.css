@@ -27,27 +27,22 @@ img {
     border-radius: 15px;
     display: block;
     margin: 0 auto 30px auto; 
-
 }
   
-
 .recipe-sections {
     display:flex;
     justify-content: space-between;
     align-items:flex-start;
     gap: 250px;
     margin: 15px;
-
 }
 
 .footer{
     text-align: center;
-
 }
  
 .no-p {
     list-style-type: none;
     margin: 0px;
     padding: 0px;
-
 }
