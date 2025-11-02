@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(232, 229, 213);
+    background-color: rgb(241, 240, 233);
     color: rgb(46, 20, 3);
     font-size: 35px;
     font-family: 'Oswald', sans-serif;
@@ -71,7 +71,7 @@ h2, h3{
     margin-top: 60px;
   }
   
-  .no-p {
+  .clean-list {
     list-style-type: none;
     margin: 0;
     padding: 0;
