@@ -32,18 +32,16 @@ img {
     display: block;
     margin: 0 auto 30px auto; 
 }
-  
-.recipe-sections {
-    display:flex;
-    justify-content: space-between;
-    align-items:flex-start;
-    gap: 250px;
-    margin: 15px;
+
+.left {
+    width: 600px;
+    float:left;
 }
 
-.description {
-    width: 600px;
-    margin: 0 auto 20px;
+.right {
+    width:600px;
+    float:left;
+    margin-left: 50px;
 }
 
 .footer{
