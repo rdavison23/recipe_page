@@ -24,7 +24,7 @@ h1 {
 }
 
 img {
-    width: 100%; 
+    width: 600px; 
     max-width: 100%; 
     height: auto;
     border: 5px solid hsl(30, 30%, 50%); 
@@ -39,6 +39,11 @@ img {
     align-items:flex-start;
     gap: 250px;
     margin: 15px;
+}
+
+.description {
+    width: 600px;
+    margin: 0 auto 20px;
 }
 
 .footer{
