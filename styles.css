@@ -42,9 +42,7 @@ img {
 }
 
 .right {
-    width:600px;
-    float:left;
-    margin-left: 50px;
+     flex: 0 0 500px;    
 }
 
 .content::after {
