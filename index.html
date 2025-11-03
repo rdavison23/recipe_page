@@ -1,32 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css"> </link>
     <meta name="description" content="first html page"></meta>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Misir Wot</title>
 </head>
 <body>
- <div class="intro">  
-    <h1>Misir Wot</h1>
-    <P> <strong> Misir Wot</strong> — also spelled Misir Wat — is a beloved Ethiopian dish made from red lentils 
-         simmered in a richly spiced sauce. It's a staple in Ethiopian cuisine, especially popular among vegetarians 
-         and vegans due to its hearty flavor and protein-packed profile.</P>
+ <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-expand-lg bg-dark">
+        <a class="navbar-brand" href="#">Ethiopian food</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
  </div>
+  <div class="container">
+    <div class="intro col-12">  
+        <h1>Misir Wot</h1>
+        <p> <strong> Misir Wot</strong> — also spelled Misir Wat — is a beloved Ethiopian dish made from red lentils 
+            simmered in a richly spiced sauce. It's a staple in Ethiopian cuisine, especially popular among vegetarians 
+            and vegans due to its hearty flavor and protein-packed profile.</p>
+    </div>
 
-<div> 
-    <img src="https://www.paintthekitchenred.com/wp-content/uploads/2021/01/Instant-Pot-Ethiopian-Lentils-P1-Paint-the-Kitchen-Red.jpg" alt="Image of simmered red lentils">
-</div>
+ <div class="content">
+    <div class="left">
+         <img src="https://www.paintthekitchenred.com/wp-content/uploads/2021/01/Instant-Pot-Ethiopian-Lentils-P1-Paint-the-Kitchen-Red.jpg" alt="Image of simmered red lentils">
 
-<div class="recipe-sections">
-  <div class="Ingredients"> 
+    <div class="Ingredients"> 
         <h2>Ingredients</h2>
 
         <ul>
-            <li>1large yellow onion, chopped</li>
+            <li>1 large yellow onion, chopped</li>
             <li>3 cloves garlic, minced</li>
-            <l1>2 teaspoon ginger minced</l1>
+            <li>2 teaspoon ginger minced</l1>
             <li>3 Roma tomato, diced</li>
             <li>2 tbsp tomato paste</li>
             <l1>2 teaspoon ginger minced</l1>
@@ -36,41 +52,38 @@
             <li>2.5 cups vegetable or chicken broth</li>
             <li>1 tsp salt</li>
         </ul>
-    </div> 
+     </div> 
+ </div>
 
- <div class="direction"> 
-
-    <h3>Directions</h3>
-        <ol>
-            <li>Soak and wash your lentils, then let them soak while you prepare the seasonings.</li>
-            <li>Heat a large frying pan over medium heat.</li>
-            <li>To the pan add 2 Tbsp of water and the onion and cook until the onion softens.</li>
-            <li>Aod the garlic and chili powder and continue frying for another minute or two.</li>
-            <li>Stir in the tomato paste, diced tomatoes Berbere spice and cardamom and continue 
-                cooking for two minutes.</li>
-            <l1>Add the lentils, coconut and broth to the pan. Bring to a boil then turn down the 
-                heat and let simmer until the lentils become soft. You can add a little more water if 
-                needed but you want this to be a fairly dry curry.</l1>
-            <li> Season with salt and pepper and serve hot with an Injera flat bread.</li>
-            <li>Remove from the oven and let cool for an hour. </li>
-
+    <div class="right">
+      <div class="description"> 
+         <h3>Directions</h3>
+            <ol>
+                <li>Soak and wash your lentils, then let them soak while you prepare the seasonings.</li>
+                <li>Heat a large frying pan over medium heat.</li>
+                <li>To the pan add 2 Tbsp of water and the onion and cook until the onion softens.</li>
+                <li>Aod the garlic and chili powder and continue frying for another minute or two.</li>
+                <li>Stir in the tomato paste, diced tomatoes Berbere spice and cardamom and continue 
+                    cooking for two minutes.</li>
+                <l1>Add the lentils, coconut and broth to the pan. Bring to a boil then turn down the 
+                    heat and let simmer until the lentils become soft. You can add a little more water if 
+                    needed but you want this to be a fairly dry curry.</l1>
+                <li> Season with salt and pepper and serve hot with an Injera flat bread.</li>
+                <li>Remove from the oven and let cool for an hour. </li>
             </ol>
         </div> 
+
+  <div class = "footer"> 
+        <h3>Similar Recipes</h3>
+        <ul class = "clean-list">
+           <li>
+             <a class="btn btn-outline-primary btn-lg" role="button" href="https://www.diversivore.com/doro-wat/">Doro Wat</a></li>
+           </li>
+         </ul>
+      </div>
     </div>
-         <div class = "footer"> 
-            <footer>
-                <h3>Similar Recipes</h3>
-                <ul>
-                    <li><a href="https://www.diversivore.com/doro-wat/">Doro Wat</a></li>
-
-                </ul> 
-            </footer>
-        </div> 
-
-            
-
-            
-
-
+  </div>
+ </div>
+   
 </body>
 </html>
