@@ -7,76 +7,76 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
-  }
+}
   
-  h1 {
+h1 {
     font-size: 90px;
     color: rgb(206, 120, 62);
     font-weight: 400;
     text-align: center;
     margin: 50px auto;
     letter-spacing: 6px;
-  }
+}
   
-  img {
+img {
     width: 500px;
     height: auto;
     border: 5px solid hsl(30, 30%, 50%);
     border-radius: 15px;
     display: block;
     margin-bottom: 30px;
-  }
+}
 
 h2, h3{
     font-size: 55px;;
 }
   
-  .content {
+.content {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
     gap: 50px;
     margin: 15px 0;
     flex-wrap: wrap;
-  }
+}
   
-  .left {
+.left {
     flex: 0 0 500px;
-  }
+}
   
-  .right {
+.right {
     flex: 0 0 500px;
-  }
+}
   
-  .ingredients {
+.ingredients {
     font-size: 35px;
     margin-bottom: 15px;
-  }
+}
   
-  .ingredients ul {
+.ingredients ul {
     padding-left: 20px;
-  }
+}
   
-  .description  {
+.description  {
     font-size: 35px;
     margin-bottom: 15px;
-  }
+}
   
-  .description ol {
+.description ol {
     padding-left: 20px;
-  }
+}
   
-  .footer {
+.footer {
     text-align: center;
     margin-top: 60px;
-  }
+}
   
-  .clean-list {
+.clean-list {
     list-style-type: none;
     margin: 0;
     padding: 0;
-  }
+}
   
-  .bg-orange {
+.bg-orange {
     background-color: rgb(206, 120, 62);
-  }
+}
