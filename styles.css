@@ -83,8 +83,17 @@ h2, h3{
 
 .rightL{
     text-align: right;
+    padding: 30px,30px,30px,30px;
 }
 
 .navcenter{
     width: 100%;
+}
+
+.navleft{
+    padding: 20px;
+}
+
+.navright{
+    padding: 20px;
 }
