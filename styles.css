@@ -80,3 +80,11 @@ h2, h3{
 .bg-orange {
     background-color: rgb(206, 120, 62);
 }
+
+.rightL{
+    text-align: right;
+}
+
+.navcenter{
+    width: 100%;
+}
