@@ -53,8 +53,10 @@ h2, h3{
     margin-bottom: 15px;
 }
   
-.ingredients ul {
+.Ingredients ul {
     padding-left: 20px;
+    list-style-type: none;
+
 }
   
 .description  {
@@ -105,4 +107,9 @@ h2, h3{
     color: antiquewhite;
     font-size: 34px;
 
+}
+
+.bigCheckbox{
+    width: 30px;
+    height: 30px;
 }
