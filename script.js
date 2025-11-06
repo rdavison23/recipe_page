@@ -4,7 +4,7 @@ let myList = document.getElementById("ingredientsList")
 let label= document.createElement("label");
 label.htmlfor ="id";
 label.appendChild(
-    document.createTextNode("This create the lable for checkbox"));
+    document.createTextNode("This creates the lable for checkbox"));
 // myDiv.appendChild(checkbox);
 // myDiv.appendChild(checkbox);
 myDiv.appendChild(label);
