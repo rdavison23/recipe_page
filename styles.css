@@ -4,9 +4,10 @@ body {
     font-size: 40px;
     font-family: 'Oswald', sans-serif;
     font-weight: 300;
-    max-width: 1200px;
+    max-width: 2400px;
     margin: 0 auto;
     padding: 0 20px;
+    width: 80%;
 }
   
 h1 {
@@ -27,8 +28,12 @@ img {
     margin-bottom: 30px;
 }
 
-h2, h3{
+h2 {
     font-size: 55px;;
+}
+
+h3 {
+    font-size: 40px;
 }
   
 .content {
@@ -41,11 +46,11 @@ h2, h3{
 }
   
 .left {
-    flex: 0 0 500px;
+    flex: 1 1 500px;
 }
   
 .right {
-    flex: 0 0 500px;
+    flex: 1 1 700px;
 }
   
 .ingredients {
@@ -70,7 +75,11 @@ h2, h3{
   
 .footer {
     text-align: center;
-    margin-top: 60px;
+    padding: 20px;
+    margin-top: 30px;
+    background-color: rgba(194, 177, 177, 0.35);
+    border-top: 5px solid rgba(255, 102, 0, 0.39);
+    width: 100%;
 }
   
 .clean-list {
@@ -110,7 +119,52 @@ h2, h3{
 }
 
 .bigCheckbox{
-    width: 30px;
-    height: 30px;
+    width: 45px;
+    height: 45px;
+    text-decoration: line-through;
+}
+
+.btn-lg {
+     
+    border: 2px solid rgb(140, 135, 124);
+    color:rgb(61, 52, 35);;
+    background-color: transparent;
     
 }
+
+.btn-lg:hover {
+background-color: rgb(206, 120, 62); 
+color: white;
+}
+
+
+li:has(> input.bigCheckbox:checked){
+    text-decoration:line-through;
+   
+}
+
+/* Tablet view */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 32px;
+        width: 100%;
+        letter-spacing: 3px;
+        color: rgb(240, 153, 12);
+        font-style: bold;
+        font-size: 40px;
+      }
+
+    h3 {
+        color: rgb(206, 120, 62);
+    }
+}
+
+
+  /* Mobile Devices */
+  @media (max-width: 480){
+
+    body {
+        font-size: 16px;
+        padding: 0 10px;
+      }
+  }
