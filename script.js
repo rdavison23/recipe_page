@@ -12,7 +12,7 @@ myDiv.appendChild(label);
 for (const [i,child] of Array.from(myList.children).entries()) {
     console.log(i,child)
     let checkbox = document.createElement("input")
-    checkbox.type = "checkbox"
+    checkbox.type= "checkbox"
     checkbox.name="ingredients";
     checkbox.id ="ingredient";
     checkbox.classList.add("bigCheckbox")
